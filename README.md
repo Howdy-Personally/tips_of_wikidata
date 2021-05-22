@@ -46,8 +46,10 @@ Linux:
 Win10: 
 * https://dumps.wikimedia.org/wikidatawiki/entities/latest-all.json.bz2
 ## 四、数据预处理
-读取前100行作为数据源
-在磁盘空间足够的情况下，可增加数据量大小
+* 读取前100行作为数据源
+* 在磁盘空间足够的情况下，可增加数据量大小
+* 但是在方法上是一致的
+* 毕竟学习的目的在于学习，而不是折磨
 ```
 python line_100_load.py --wikidata_path your_bz_path --store_path your_store_path
 ```
