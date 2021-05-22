@@ -46,12 +46,10 @@ Linux:
 Win10: 
 * https://dumps.wikimedia.org/wikidatawiki/entities/latest-all.json.bz2
 ## 四、数据预处理
-''' 
-
-python line_100_load.py --wikidata_path your_bz_path --store_path your_store_path
+```python line_100_load.py --wikidata_path your_bz_path --store_path your_store_path
 (python c:/Users/123/Desktop/wiki_100_line/line_100_load.py --wikidata_path D:/latest-all.json.bz2 --store_path C:/Users/123/Desktop/wiki_100_line/line_100_file.json)
+```
 
-'''
 ## 四、数据集和评测指标
 
 
