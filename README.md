@@ -42,6 +42,7 @@
 ## 三、数据获取
 Linux:
 * wget https://dumps.wikimedia.org/wikidatawiki/entities/latest-all.json.bz2
+
 Win10: 
 * https://dumps.wikimedia.org/wikidatawiki/entities/latest-all.json.bz2
 ## 四、数据集和评测指标
