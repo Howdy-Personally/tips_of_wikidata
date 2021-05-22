@@ -17,47 +17,59 @@
 ### 2.1 数据获取
 
 * From Wikidata Dowload JSON.bz2
-
+* 
 ### 2.2 数据预处理
+
 * 读取前100条JSON_LINE便于数据分析
 * 进行Data Laundry 以删除不需要的数据
 * Json.dumps 对数据进行整理
 * 
 ### 2.3 Mysql的设计
+
 * 为Mysql设计E-R图
 * 将数据存入Mysql
 * 设计SQL语句对Mysql进行查询
-* 
+
 ### 2.4 gStore的设计
+
 * 为gStore生成对应的三元组
 * 将数据存入gStore
 * 设计Sparql语句对Mysql进行查询
 
 ### 2.5 Mysql与gStore对比
+
 * 对关系型数据库和图数据库进行对比
 
 ### 2.6 Gui的设计
+
 * 使用C#设计了一款可以进行知识问答的APP
 
 ## 三、数据获取
+
 Linux:
 * wget https://dumps.wikimedia.org/wikidatawiki/entities/latest-all.json.bz2
 
 Win10: 
 * https://dumps.wikimedia.org/wikidatawiki/entities/latest-all.json.bz2
+
 ## 四、数据预处理
+
 * 读取前100行作为数据源
 * 在磁盘空间足够的情况下，可增加数据量大小
-* 但是在方法上是一致的
+* 在方法上是一致的
 * 毕竟学习的目的在于学习，而不是折磨
 ```
 python line_100_load.py --wikidata_path your_bz_path --store_path your_store_path
 ```
 
-## 四、数据集和评测指标
+## 五、Mysql设计
 
 
-## 五、实证分析和测试结果
+## 六、gStore的设计
+
+## 七、Mysql与gStore对比
+
+## 七、Gui的设计
 
 
-## 六、结论和讨论
+## 八、结论和讨论
