@@ -46,7 +46,8 @@ Linux:
 Win10: 
 * https://dumps.wikimedia.org/wikidatawiki/entities/latest-all.json.bz2
 ## 四、数据预处理
-```python line_100_load.py --wikidata_path your_bz_path --store_path your_store_path
+```
+python line_100_load.py --wikidata_path your_bz_path --store_path your_store_path
 ```
 
 ## 四、数据集和评测指标
