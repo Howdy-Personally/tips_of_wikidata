@@ -67,9 +67,11 @@ python line_100_load.py --wikidata_path your_bz_path --store_path your_store_pat
 
 ## 六、gStore的设计
 
+
 ## 七、Mysql与gStore对比
 
-## 七、Gui的设计
+
+## 八、Gui的设计
 
 
-## 八、结论和讨论
+## 九、结论和讨论
