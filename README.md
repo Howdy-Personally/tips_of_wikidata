@@ -80,7 +80,7 @@ python laundry_pid_file.py --pretreat_path your_bz_path --store_path laundry_pat
 
 ## 五、Mysql设计
 
-![avatar][base64str]
+![base64str]
 
 
 ## 六、gStore的设计
