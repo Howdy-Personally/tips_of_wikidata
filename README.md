@@ -66,15 +66,17 @@ python line_100_load.py --wikidata_path your_bz_path --store_path your_store_pat
 
 * 整理出所有的Property进行语义理解
 ```
-python find_pid.py --wikidata_path your_bz_path --store_path your_store_path
+python find_pid.py --pretreat_path your_bz_path --store_path laundry_path
 ```
 
 
 * 对pid进行数据清洗
 ```
-python laundry_pid_file.py --wikidata_path your_bz_path --store_path your_store_path
+python laundry_pid_file.py --pretreat_path your_bz_path --store_path laundry_path
+```
 ```
 
+```
 
 ## 五、Mysql设计
 
