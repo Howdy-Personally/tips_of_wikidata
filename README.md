@@ -61,6 +61,19 @@ Win10:
 ```
 python line_100_load.py --wikidata_path your_bz_path --store_path your_store_path
 ```
+* 数据清洗
+* 生成易于理解的英文数据
+
+```
+python find_pid.py --wikidata_path your_bz_path --store_path your_store_path
+```
+* 整理出所有的Property进行语义理解
+
+
+```
+python laundry_pid_file.py --wikidata_path your_bz_path --store_path your_store_path
+```
+对pid进行数据清洗
 
 ## 五、Mysql设计
 
