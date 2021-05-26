@@ -69,7 +69,7 @@ python find_pid.py --pretreat_path your_bz_path --store_path your_store_path
 ```
 
 * 通过在线json解析可以看出Q_item的格式如下
-![avater](https://github.com/Howdy-Personally/tips_of_wikidata/blob/main/Qitem%E6%A0%BC%E5%BC%8F.png)
+![avater](https://github.com/Howdy-Personally/tips_of_wikidata/blob/main/Qitem.png)
 * 与此同时pitem的格式如下
 ![avater](https://github.com/Howdy-Personally/tips_of_wikidata/blob/main/Pitem.png)
 
