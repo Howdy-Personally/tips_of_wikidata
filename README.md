@@ -58,22 +58,23 @@ Win10:
 * 在磁盘空间足够的情况下，可增加数据量大小
 * 在方法上是一致的
 * 毕竟学习的目的在于学习，而不是折磨
+* 数据清洗
+* 生成易于理解的英文数据
 ```
 python line_100_load.py --wikidata_path your_bz_path --store_path your_store_path
 ```
-* 数据清洗
-* 生成易于理解的英文数据
 
+* 整理出所有的Property进行语义理解
 ```
 python find_pid.py --wikidata_path your_bz_path --store_path your_store_path
 ```
-* 整理出所有的Property进行语义理解
 
 
+* 对pid进行数据清洗
 ```
 python laundry_pid_file.py --wikidata_path your_bz_path --store_path your_store_path
 ```
-对pid进行数据清洗
+
 
 ## 五、Mysql设计
 
