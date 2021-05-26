@@ -80,7 +80,7 @@ python laundry_pid_file.py --pretreat_path your_bz_path --store_path laundry_pat
 
 ## 五、Mysql设计
 
-![avater]https://github.com/Howdy-Personally/tips_of_wikidata/blob/main/%E6%95%B0%E6%8D%AE%E5%BA%93%E7%BB%93%E6%9E%84.png
+![avater](https://github.com/Howdy-Personally/tips_of_wikidata/blob/main/%E6%95%B0%E6%8D%AE%E5%BA%93%E7%BB%93%E6%9E%84.png)
 
 
 ## 六、gStore的设计
