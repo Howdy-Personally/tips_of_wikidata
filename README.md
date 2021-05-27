@@ -73,8 +73,17 @@ python find_pid.py --pretreat_path your_bz_path --store_path your_store_path
 ![avater](https://github.com/Howdy-Personally/tips_of_wikidata/blob/main/Qitem.png)
 * 与此同时pitem的格式如下
 
-![avater](https://github.com/Howdy-Personally/tips_of_wikidata/blob/main/pitem.png)
+![avater](https://github.com/Howdy-Personally/tips_of_wikidata/blob/main/Pitem.png)
 
+* 每个P或Q下面有一个claims
+
+![avater](https://github.com/Howdy-Personally/tips_of_wikidata/blob/main/cliams)
+* claims下包含mainsnak,qualifiers,references
+* 然后这三个属性里分别包含如下
+
+![avater](https://github.com/Howdy-Personally/tips_of_wikidata/blob/main/mainsnak)
+![avater](https://github.com/Howdy-Personally/tips_of_wikidata/blob/main/qualifiers)
+![avater](https://github.com/Howdy-Personally/tips_of_wikidata/blob/main/references)
 ## 五、数据预处理
 
 * 数据清洗
