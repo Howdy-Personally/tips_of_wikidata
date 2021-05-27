@@ -77,13 +77,13 @@ python find_pid.py --pretreat_path your_bz_path --store_path your_store_path
 
 * 每个P或Q下面有一个claims
 
-![avater](https://github.com/Howdy-Personally/tips_of_wikidata/blob/main/cliams)
+![avater](https://github.com/Howdy-Personally/tips_of_wikidata/blob/main/cliams.png)
 * claims下包含mainsnak,qualifiers,references
 * 然后这三个属性里分别包含如下
 
-![avater](https://github.com/Howdy-Personally/tips_of_wikidata/blob/main/mainsnak)
-![avater](https://github.com/Howdy-Personally/tips_of_wikidata/blob/main/qualifiers)
-![avater](https://github.com/Howdy-Personally/tips_of_wikidata/blob/main/references)
+![avater](https://github.com/Howdy-Personally/tips_of_wikidata/blob/main/mainsnak.png)
+![avater](https://github.com/Howdy-Personally/tips_of_wikidata/blob/main/qualifiers.png)
+![avater](https://github.com/Howdy-Personally/tips_of_wikidata/blob/main/references.png)
 ## 五、数据预处理
 
 * 数据清洗
