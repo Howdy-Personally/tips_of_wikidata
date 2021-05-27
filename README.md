@@ -53,14 +53,14 @@ Win10:
 * https://dumps.wikimedia.org/wikidatawiki/entities/latest-all.json.bz2
 
 ## 四、数据分析
-* 读取前100行作为数据源
+* 读取前10000行作为数据源
 * 在磁盘空间足够的情况下，可增加数据量大小
 * 在方法上是一致的
 * 毕竟学习的目的在于学习，而不是折磨
 
-* 整理出100条qitem进行语义理解
+* 整理出10000条qitem进行语义理解
 ```
-python line_100_load.py --wikidata_path your_bz_path --store_path your_store_path
+python line_10000_load.py --wikidata_path your_bz_path --store_path your_store_path
 ```
 
 * 整理出所有的Property进行语义理解
