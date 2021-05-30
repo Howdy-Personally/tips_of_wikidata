@@ -118,25 +118,11 @@ python store_to_db.py --qitem_path your_qitem_path --pid_path your_pid_path
 ### 日志文本：
 ---
 #### Sun May 30 10:13:38 2021 store start
-#### Sun May 30 10:42:00 2021 line 1000 stored
-#### Sun May 30 11:12:43 2021 line 2000 stored
-#### Sun May 30 11:32:36 2021 line 3000 stored
-#### Sun May 30 11:58:47 2021 line 4000 stored
-#### Sun May 30 12:22:22 2021 line 5000 stored
-#### Sun May 30 12:54:08 2021 line 6000 stored
-#### Sun May 30 13:28:54 2021 line 7000 stored
-#### Sun May 30 14:18:42 2021 line 8000 stored
-#### Sun May 30 15:08:06 2021 line 9000 stored
-#### Sun May 30 16:15:22 2021 line 10000 stored
+#### Sun May 30 12:22:22 2021 line 5000 entitles stored
+#### Sun May 30 16:15:22 2021 line 10000 entitles stored
 #### Sun May 30 16:15:22 2021 and line 10000 entitles all stored
-#### Sun May 30 16:28:25 2021 and line 1000 stored
-#### Sun May 30 16:40:51 2021 and line 2000 stored
-#### Sun May 30 16:52:19 2021 and line 3000 stored
-#### Sun May 30 17:02:50 2021 and line 4000 stored
-#### Sun May 30 17:12:55 2021 and line 5000 stored
-#### Sun May 30 17:24:35 2021 and line 6000 stored
-#### Sun May 30 17:38:44 2021 and line 7000 stored
-#### Sun May 30 17:51:51 2021 and line 8000 stored
+#### Sun May 30 17:02:50 2021 and line 4000 properties stored
+#### Sun May 30 17:51:51 2021 and line 8000 properties stored
 #### Sun May 30 18:02:23 2021 and line 8755 properties all stored
 #### Sun May 30 18:02:23 2021 store end
 ---
