@@ -117,9 +117,10 @@ python store_to_db.py --qitem_path your_qitem_path --pid_path your_pid_path
 
 ### 日志文本：
 ---
-**NOTE**
-
-It works with almost all markdown flavours (the below blank line matters).
+Sun May 30 10:13:38 2021 store start
+Sun May 30 10:42:00 2021 line 1000 stored
+Sun May 30 11:12:43 2021 line 2000 stored
+Sun May 30 11:32:36 2021 line 3000 stored
 
 ---
 
