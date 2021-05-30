@@ -108,6 +108,20 @@ python find_pid.py --pretreat_path your_bz_path --store_path your_store_path
 ### 完成了数据分析预处理之后，在Mysql设计思路中，采用如下ER图结构。
 ![avater](https://github.com/Howdy-Personally/tips_of_wikidata/blob/main/pic/db_struct.png)
 
+### 将qitem和pid存入mysql中
+
+```
+python store_to_db.py --qitem_path your_qitem_path --pid_path your_pid_path
+```
+### 在i5-10400 500G-M.2 16G-Memory配置下耗时：
+
+### 日志文本：
+---
+**NOTE**
+
+It works with almost all markdown flavours (the below blank line matters).
+
+---
 
 ## 七、gStore的设计
 
