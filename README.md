@@ -113,7 +113,7 @@ python find_pid.py --pretreat_path your_bz_path --store_path your_store_path
 ```
 python store_to_db.py --qitem_path your_qitem_path --pid_path your_pid_path
 ```
-### 在i5-10400 500G-M.2 16G-Memory配置下耗时：
+### 在i5-10400 500G-M.2 16G-Memory配置下耗时：7h-48m-45s
 
 ### 日志文本：
 ---
@@ -132,8 +132,13 @@ python store_to_db.py --qitem_path your_qitem_path --pid_path your_pid_path
 #### 大部分知识图谱使用RDF描述世界上的各种资源，并以三元组的形式保存到知识库中。gStore也不例外，它也使用RDF语言，有利于在网络上形成人机可读，并可由机器自动处理的文件。
 #### RDF的基本资料模型包括了三个对象类型："资源"，"属性"，"陈述"。换句话说就是"主"，"谓"，"宾"。
 ---
-### 将qitem和pid的json文档转换为RDF文档
+### 基于这种考虑，将数据结构设计成如下模式
+![avater](https://github.com/Howdy-Personally/tips_of_wikidata/blob/main/pic/rdf.png)
 
+### 将qitem和pid的json文档转换为RDF文档
+```
+python json_to_rdf.py --qitem_path your_qitem_path --pid_path your_pid_path
+```
 ## 八、Mysql与gStore对比
 
 
