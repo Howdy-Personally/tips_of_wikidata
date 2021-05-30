@@ -121,7 +121,9 @@ python store_to_db.py --qitem_path your_qitem_path --pid_path your_pid_path
 #### Sun May 30 10:42:00 2021 line 1000 stored
 #### Sun May 30 11:12:43 2021 line 2000 stored
 #### Sun May 30 11:32:36 2021 line 3000 stored
-
+#### Sun May 30 11:58:47 2021 line 4000 stored
+#### Sun May 30 12:22:22 2021 line 5000 stored
+#### Sun May 30 12:54:08 2021 line 6000 stored
 ---
 
 ## 七、gStore的设计
