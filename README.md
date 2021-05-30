@@ -17,30 +17,34 @@
 ### 2.1 数据获取
 
 * From Wikidata Dowload JSON.bz2
-* 
-### 2.2 数据预处理
 
-* 读取前100条JSON_LINE便于数据分析
+### 2.2 数据分析
+
+* 读取前10000条JSON_LINE便于数据分析
+* 读取所有的Propery_JSON_LINE用于Claims链接
+
+### 2.3 数据预处理
+
 * 进行Data Laundry 以删除不需要的数据
-* Json.dumps 对数据进行整理
-* 
-### 2.3 Mysql的设计
+* 保留中文和英文的数据
+
+### 2.4 Mysql的设计
 
 * 为Mysql设计E-R图
 * 将数据存入Mysql
 * 设计SQL语句对Mysql进行查询
 
-### 2.4 gStore的设计
+### 2.5 gStore的设计
 
 * 为gStore生成对应的三元组
 * 将数据存入gStore
 * 设计Sparql语句对Mysql进行查询
 
-### 2.5 Mysql与gStore对比
+### 2.6 Mysql与gStore对比
 
 * 对关系型数据库和图数据库进行对比
 
-### 2.6 Gui的设计
+### 2.7 Gui的设计
 
 * 使用C#设计了一款可以进行知识问答的APP
 
@@ -79,13 +83,13 @@ python find_pid.py --pretreat_path your_bz_path --store_path your_store_path
 
 ![avater](https://github.com/Howdy-Personally/tips_of_wikidata/blob/main/pic/claims.png)
 ### claims下包含mainsnak,qualifiers,references,并分别包含如下属性
-* mainsnak
+* mainsnak:
 
 ![avater](https://github.com/Howdy-Personally/tips_of_wikidata/blob/main/pic/mainsnak.png)
-* qualifiers
+* qualifiers:
 
 ![avater](https://github.com/Howdy-Personally/tips_of_wikidata/blob/main/pic/qualifiers.png)
-* references
+* references:
 
 ![avater](https://github.com/Howdy-Personally/tips_of_wikidata/blob/main/pic/references.png)
 ## 五、数据预处理
