@@ -122,7 +122,7 @@ python store_to_db.py --qitem_path your_qitem_path --pid_path your_pid_path
 #### Sun May 30 16:15:22 2021 line 10000 entitles stored
 #### Sun May 30 16:15:22 2021 and line 10000 entitles all stored
 #### Sun May 30 17:02:50 2021 and line 4000 properties stored
-#### Sun May 30 17:50:51 2021 and line 8000 properties stored
+#### Sun May 30 17:50:52 2021 and line 8000 properties stored
 #### Sun May 30 18:02:23 2021 and line 8755 properties all stored
 #### Sun May 30 18:02:23 2021 store end
 ---
