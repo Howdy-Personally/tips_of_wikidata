@@ -70,19 +70,20 @@ python find_pid.py --pretreat_path your_bz_path --store_path your_store_path
 ### 通过在线json解析可以看出Q_item的格式如下
 
 ![avater](https://github.com/Howdy-Personally/tips_of_wikidata/blob/main/pic/qitem.png)
+
 ### 与此同时pitem的格式如下
 
 ![avater](https://github.com/Howdy-Personally/tips_of_wikidata/blob/main/pic/pitem.png)
+
 ### 每个P或Q下面有一个claims
 
 ![avater](https://github.com/Howdy-Personally/tips_of_wikidata/blob/main/pic/claims.png)
-### claims下包含mainsnak,qualifiers,references
-### 然后这三个属性里分别包含如下
-
+### claims下包含mainsnak,qualifiers,references,并分别包含如下属性
+* mainsnak
 ![avater](https://github.com/Howdy-Personally/tips_of_wikidata/blob/main/pic/mainsnak.png)
-
+* qualifiers
 ![avater](https://github.com/Howdy-Personally/tips_of_wikidata/blob/main/pic/qualifiers.png)
-
+* references
 ![avater](https://github.com/Howdy-Personally/tips_of_wikidata/blob/main/pic/references.png)
 ## 五、数据预处理
 
