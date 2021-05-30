@@ -89,22 +89,19 @@ python find_pid.py --pretreat_path your_bz_path --store_path your_store_path
 ## 五、数据预处理
 
 * 数据清洗
-* 生成易于理解的英文数据
-
 * 对qitem进行数据清洗
-```
-python laundry.py --pretreat_path your_bz_path --store_path laundry_path
-```
 * 对pid进行数据清洗
-```
-python laundry_pid_file.py --pretreat_path your_bz_path --store_path laundry_path
-```
+* 生成易于理解的英文数据和中文数据
+
+### 将JSON数据整理，得到如下的数据结构图
+![avater](https://github.com/Howdy-Personally/tips_of_wikidata/blob/main/structure.png)
+
 
 
 ## 六、Mysql设计
+### 完成了数据分析预处理之后，在Mysql设计思路中，采用如下ER图结构。
+![avater](https://github.com/Howdy-Personally/tips_of_wikidata/blob/main/db_struct.png)
 
-![avater](https://github.com/Howdy-Personally/tips_of_wikidata/blob/main/%E6%95%B0%E6%8D%AE%E5%BA%93%E7%BB%93%E6%9E%84.png)
-### 这是一开始的工作想法，妄图将所有数据存入到数据库，但这不能反映关系数据库的
 
 ## 七、gStore的设计
 
