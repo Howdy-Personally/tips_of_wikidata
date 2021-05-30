@@ -68,18 +68,20 @@ python line_10000_load.py --wikidata_path your_bz_path --store_path your_store_p
 python find_pid.py --pretreat_path your_bz_path --store_path your_store_path
 ```
 
-* 通过在线json解析可以看出Q_item的格式如下
+### 通过在线json解析可以看出Q_item的格式如下
 
 ![avater](https://github.com/Howdy-Personally/tips_of_wikidata/blob/main/pic/qitem.png)
-* 与此同时pitem的格式如下
+
+### 与此同时pitem的格式如下
 
 ![avater](https://github.com/Howdy-Personally/tips_of_wikidata/blob/main/pic/pitem.png)
 
-* 每个P或Q下面有一个claims
+### 每个P或Q下面有一个claims
 
 ![avater](https://github.com/Howdy-Personally/tips_of_wikidata/blob/main/pic/claims.png)
-* claims下包含mainsnak,qualifiers,references
-* 然后这三个属性里分别包含如下
+
+###claims下包含mainsnak,qualifiers,references
+### 然后这三个属性里分别包含如下
 
 ![avater](https://github.com/Howdy-Personally/tips_of_wikidata/blob/main/pic/mainsnak.png)
 
@@ -94,13 +96,13 @@ python find_pid.py --pretreat_path your_bz_path --store_path your_store_path
 * 生成易于理解的英文数据和中文数据
 
 ### 将JSON数据整理，得到如下的数据结构图
-![avater](https://github.com/Howdy-Personally/tips_of_wikidata/blob/main/structure.png)
+![avater](https://github.com/Howdy-Personally/tips_of_wikidata/blob/main/pic/structure.png)
 
 
 
 ## 六、Mysql设计
 ### 完成了数据分析预处理之后，在Mysql设计思路中，采用如下ER图结构。
-![avater](https://github.com/Howdy-Personally/tips_of_wikidata/blob/main/db_struct.png)
+![avater](https://github.com/Howdy-Personally/tips_of_wikidata/blob/main/pic/db_struct.png)
 
 
 ## 七、gStore的设计
