@@ -137,7 +137,7 @@ python store_to_db.py --qitem_path your_qitem_path --pid_path your_pid_path
 
 ### 将qitem和pid的json文档转换为RDF文档
 ```
-python json_to_rdf.py --qitem_path your_qitem_path --pid_path your_pid_path
+python json_to_rdf.py --qitem_path your_qitem_path --pid_path your_pid_path --out_path your_out_path
 ```
 ## 八、Mysql与gStore对比
 
