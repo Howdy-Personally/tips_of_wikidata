@@ -168,10 +168,15 @@ python duplicate_removal.py --dirty_path your_dirty_path --out_path your_out_pat
 ### 对于gStore而言，使用sparql语句查询知识图谱，使用如下的查询语句，得到了一个关于Belgium和P123属性的所有知识图谱
 ---
 SELECT ?x?y?z
+
 WHERE
+
 {
+
 <Belgium> <P123> ?x.
+  
 ?y?z?x
+  
 }
   
 ---
