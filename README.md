@@ -166,7 +166,7 @@ python duplicate_removal.py --dirty_path your_dirty_path --out_path your_out_pat
 与其相反，非关系型数据不适合存储在数据表的行和列中，而是大块组合在一起，图结构数据及其特性是选择数据存储和提取方式的首要影响因素。
 
 ---
-### 对于mysql而言，使用sql语句查询mysql，使用如下的查询语句，得到了一个关于Belgium和P123属性的数据库表
+* 对于mysql而言，使用sql语句查询mysql，使用如下的查询语句，得到了一个关于Belgium和P123属性的数据库表
 ### 耗时76ms
 
 ---
@@ -179,7 +179,7 @@ python duplicate_removal.py --dirty_path your_dirty_path --out_path your_out_pat
 ---
 ![avater](https://github.com/Howdy-Personally/tips_of_wikidata/blob/main/pic/mysql_belgium.png)
 
-### 对于gStore而言，使用sparql语句查询知识图谱，使用如下的查询语句，得到了一个关于Belgium和P123属性的所有结点知识图谱
+*  对于gStore而言，使用sparql语句查询知识图谱，使用如下的查询语句，得到了一个关于Belgium和P123属性的所有结点知识图谱
 ### 耗时1ms
 
 ---
