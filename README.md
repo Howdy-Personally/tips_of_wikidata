@@ -169,9 +169,9 @@ python duplicate_removal.py --dirty_path your_dirty_path --out_path your_out_pat
 
 ---
 
-SELECT ?x?y?z
+  SELECT ?x?y?z
 
-WHERE
+  WHERE
 
       {
 
