@@ -169,17 +169,10 @@ python duplicate_removal.py --dirty_path your_dirty_path --out_path your_out_pat
 
 ---
 
-  SELECT ?x?y?z
-
-  WHERE
-
-      {
-
-           &lt;Belgium&gt; &lt;P123&gt; ?x.
- 
-           ?y?z?x
-
-       }
+#### SELECT ?x?y?z
+#### WHERE
+#### {&lt;Belgium&gt; &lt;P123&gt; ?x.
+#### ?y?z?x}
 
 ---
 
