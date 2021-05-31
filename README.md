@@ -167,13 +167,18 @@ python duplicate_removal.py --dirty_path your_dirty_path --out_path your_out_pat
 
 ---
 ### 对于mysql而言，使用sql语句查询mysql，使用如下的查询语句，得到了一个关于Belgium和P123属性的数据库表
-### 耗时1ms
+### 耗时76ms
 
 ---
 
-select * from(select c.entitles_id,c.en_labels,c.zh_labels,c.en_descriptions,c.zh_descriptions,d.property_id ,d.value from (select a.entitles_id,a.en_labels,a.zh_labels,a.en_descriptions,zh_descriptions,b.property_id,b.value ,b.claims_id from (SELECT * FROM entitles where en_labels='Belgium')a join claims b on a.entitles_id=b.entitles_id)c join reference d on c.claims_id = d.claims_id)e where e.property_id='P123'
+#### select * from(select c.entitles_id,c.en_labels,c.zh_labels,c.en_descriptions,c.zh_descriptions,d.property_id ,d.value from 
+#### (select a.entitles_id,a.en_labels,a.zh_labels,a.en_descriptions,zh_descriptions,b.property_id,b.value ,b.claims_id from 
+#### (SELECT * FROM entitles where en_labels='Belgium')a join claims b on a.entitles_id=b.entitles_id)c 
+#### join reference d on c.claims_id = d.claims_id)e where e.property_id='P123'
 
 ---
+![avater](https://github.com/Howdy-Personally/tips_of_wikidata/blob/main/pic/mysql_belgium.png)
+
 ### 对于gStore而言，使用sparql语句查询知识图谱，使用如下的查询语句，得到了一个关于Belgium和P123属性的所有结点知识图谱
 ### 耗时1ms
 
