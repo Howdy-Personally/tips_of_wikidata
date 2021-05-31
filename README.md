@@ -158,13 +158,14 @@ python json_to_rdf.py --qitem_path your_qitem_path --pid_path your_pid_path
 python duplicate_removal.py --dirty_path your_dirty_path --out_path your_out_path
 ```
 ### 然而去重操作非常费时，也可以选择不进行去重
+
+
+## 八、Mysql与gStore对比
 ---
 关系型数据库和图数据库的主要差异是数据存储的方式。关系型数据天然就是表格式的，因此存储在数据表的行和列中。数据表可以彼此关联协作存储，也很容易提取数据。
 与其相反，非关系型数据不适合存储在数据表的行和列中，而是大块组合在一起，图结构数据及其特性是选择数据存储和提取方式的首要影响因素。
 
 ---
-
-## 八、Mysql与gStore对比
 ### 对于mysql而言，使用sql语句查询mysql，使用如下的查询语句，得到了一个关于Belgium和P123属性的数据库表
 ### 耗时1ms
 
