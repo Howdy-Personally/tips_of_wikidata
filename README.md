@@ -165,7 +165,7 @@ python duplicate_removal.py --dirty_path your_dirty_path --out_path your_out_pat
 ---
 
 ## 八、Mysql与gStore对比
-### 对于gStore而言，使用sparql语句查询知识图谱，使用如下的查询语句，得到了一个关于Belgium和P123属性的所有知识图谱
+### 对于gStore而言，使用sparql语句查询知识图谱，使用如下的查询语句，得到了一个关于Belgium和P123属性的所有结点知识图谱
 ### 耗时5ms
 
 ---
