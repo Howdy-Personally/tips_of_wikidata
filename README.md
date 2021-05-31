@@ -153,7 +153,10 @@ python json_to_rdf.py --qitem_path your_qitem_path --pid_path your_pid_path
 #### Mon May 31 09:38:50 2021 and line 8755 properties all stored
 #### Mon May 31 09:38:50 2021 rdf store end
 ---
-
+### 但其实在转换为rdf文档时，可能会存在数据重复，因而需要采取去重操作
+```
+python duplicate_removal.py --dirty_path your_dirty_path --out_path your_out_path
+```
 ## 八、Mysql与gStore对比
 
 
