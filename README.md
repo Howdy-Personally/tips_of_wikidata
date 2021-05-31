@@ -137,8 +137,23 @@ python store_to_db.py --qitem_path your_qitem_path --pid_path your_pid_path
 
 ### 将qitem和pid的json文档转换为RDF文档
 ```
-python json_to_rdf.py --qitem_path your_qitem_path --pid_path your_pid_path --out_path your_out_path
+python json_to_rdf.py --qitem_path your_qitem_path --pid_path your_pid_path
 ```
+
+### 在i5-10400 500G-M.2 16G-Memory配置下耗时：3m-28s
+
+### 日志文本：
+---
+#### Mon May 31 09:35:22 2021 rdf store start
+#### Mon May 31 09:36:42 2021 line 5000 stored
+#### Mon May 31 09:38:01 2021 line 10000 stored
+#### Mon May 31 09:38:01 2021 and line 10000 entitles all stored
+#### Mon May 31 09:38:23 2021 and line 4000 stored
+#### Mon May 31 09:38:46 2021 and line 8000 stored
+#### Mon May 31 09:38:50 2021 and line 8755 properties all stored
+#### Mon May 31 09:38:50 2021 rdf store end
+---
+
 ## 八、Mysql与gStore对比
 
 
