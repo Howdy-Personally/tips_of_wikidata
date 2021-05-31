@@ -171,9 +171,7 @@ python duplicate_removal.py --dirty_path your_dirty_path --out_path your_out_pat
 
 ---
 
-#### SELECT ?x?y?z
-#### WHERE
-#### {&lt;Belgium&gt; &lt;P123&gt; ?x.}
+select * from(select c.entitles_id,c.en_labels,c.zh_labels,c.en_descriptions,c.zh_descriptions,d.property_id ,d.value from (select a.entitles_id,a.en_labels,a.zh_labels,a.en_descriptions,zh_descriptions,b.property_id,b.value ,b.claims_id from (SELECT * FROM entitles where en_labels='Belgium')a join claims b on a.entitles_id=b.entitles_id)c join reference d on c.claims_id = d.claims_id)e where e.property_id='P123'
 
 ---
 ### 对于gStore而言，使用sparql语句查询知识图谱，使用如下的查询语句，得到了一个关于Belgium和P123属性的所有结点知识图谱
