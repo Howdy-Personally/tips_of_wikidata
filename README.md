@@ -166,7 +166,7 @@ python duplicate_removal.py --dirty_path your_dirty_path --out_path your_out_pat
 与其相反，非关系型数据不适合存储在数据表的行和列中，而是大块组合在一起，图结构数据及其特性是选择数据存储和提取方式的首要影响因素。
 
 ---
-* 对于mysql而言，使用sql语句查询mysql，使用如下的查询语句，得到了一个关于Belgium和P123属性的数据库表
+#### 1. 对于mysql而言，使用sql语句查询mysql，使用如下的查询语句，得到了一个关于Belgium和P123属性的数据库表
 ### 耗时76ms
 
 ---
@@ -179,7 +179,7 @@ python duplicate_removal.py --dirty_path your_dirty_path --out_path your_out_pat
 ---
 ![avater](https://github.com/Howdy-Personally/tips_of_wikidata/blob/main/pic/mysql_belgium.png)
 
-*  对于gStore而言，使用sparql语句查询知识图谱，使用如下的查询语句，得到了一个关于Belgium和P123属性的所有结点知识图谱
+#### 2. 对于gStore而言，使用sparql语句查询知识图谱，使用如下的查询语句，得到了一个关于Belgium和P123属性的所有结点知识图谱
 ### 耗时1ms
 
 ---
@@ -210,7 +210,8 @@ python duplicate_removal.py --dirty_path your_dirty_path --out_path your_out_pat
 
 
 ## 九、结论和讨论
-
-### 通过上面的数据存储和数据查询操作，可以显而易见的看出，对于关系数据库而言，数据查找在效率上并没有优势，反而是拖后腿的，但是数据更加直观
-### 而对于图数据库，可以看出再查询效率上很高，可视化程度也很清晰，但是对于数据的绑定稍显复杂，如果三元组设计的不够好的话反而会出现找不到数据的情况
+### 1. Mysql
+#### 通过上面的数据存储和数据查询操作，可以显而易见的看出，对于关系数据库而言，数据查找在效率上并没有优势，反而是拖后腿的，但是数据更加直观
+#### 并且有数据结构可知，存储在mysql中的数据量Claims:589309,en_abliases:21547,entitles:10000,property:8749,qualifiers:50524,reference:125104,zh_aliases:1086
+#### 而对于图数据库，可以看出再查询效率上很高，可视化程度也很清晰，但是对于数据的绑定稍显复杂，如果三元组设计的不够好的话反而会出现找不到数据的情况
 
