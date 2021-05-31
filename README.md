@@ -212,6 +212,9 @@ python duplicate_removal.py --dirty_path your_dirty_path --out_path your_out_pat
 ## 九、结论和讨论
 ### 1. Mysql
 #### 通过上面的数据存储和数据查询操作，可以显而易见的看出，对于关系数据库而言，数据查找在效率上并没有优势，反而是拖后腿的，但是数据更加直观
-#### 并且有数据结构可知，存储在mysql中的数据量Claims:589309,en_abliases:21547,entitles:10000,property:8749,qualifiers:50524,reference:125104,zh_aliases:1086
+#### 并且由数据结构可知，存储在mysql中的数据量Claims:589309,en_abliases:21547,entitles:10000,property:8749,qualifiers:50524,reference:125104,zh_aliases:1086
+![avater](https://github.com/Howdy-Personally/tips_of_wikidata/blob/main/pic/mysql.png)
+### 2. gStore
 #### 而对于图数据库，可以看出再查询效率上很高，可视化程度也很清晰，但是对于数据的绑定稍显复杂，如果三元组设计的不够好的话反而会出现找不到数据的情况
-
+#### 三元组的数量为一百万条
+![avater](https://github.com/Howdy-Personally/tips_of_wikidata/blob/main/pic/rdfrdf.png)
