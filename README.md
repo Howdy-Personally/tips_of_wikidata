@@ -173,10 +173,11 @@ WHERE
 <Belgium> <P123> ?x.
 ?y?z?x
 }
+  
 ---
+
 ![avater](https://github.com/Howdy-Personally/tips_of_wikidata/blob/main/pic/gStore.png)
 
-## 九、Gui的设计
 
 
 ## 九、结论和讨论
