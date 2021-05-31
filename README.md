@@ -173,13 +173,13 @@ SELECT ?x?y?z
 
 WHERE
 
-{
+      {
 
- &lt;Belgium&gt; &lt;P123&gt; ?x.
+           &lt;Belgium&gt; &lt;P123&gt; ?x.
  
-?y?z?x
+           ?y?z?x
 
-}
+       }
 
 ---
 
