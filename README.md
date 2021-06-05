@@ -38,7 +38,7 @@
 
 * 为gStore生成对应的三元组
 * 将数据存入gStore
-* 设计Sparql语句对Mysql进行查询
+* 设计Sparql语句对gStore进行查询
 
 ### 2.6 Mysql与gStore对比
 
